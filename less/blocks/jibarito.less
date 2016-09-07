@@ -1,0 +1,81 @@
+.jibarito {
+	background-color: #f3f1e9;
+	background-image: url("../img/landscape-bg.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	padding-bottom: 120px;
+
+	.annotation {
+		color: #a47d5e;
+		font-size: 14px;
+		line-height: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		display: block;
+	}
+
+	h3 {
+		color: #56534c;
+		font-size: 48px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.name {
+		color: #a47d5e;
+		font-size: 30px;
+		font-weight: 700;
+		display: block;
+	}
+
+	.descr {
+		color: #56534c;
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 55px;
+	}
+
+	.components {
+		text-align: center;
+		max-width: 295px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.image-block {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 120px;
+		margin-top: 90px;
+		box-shadow: 0px 2px 8px -3px;
+
+			&:before {
+				position: absolute;
+				content: "";
+				width: 171px;
+				height: 60px;
+				background-image: url("../img/full-recipe.png");
+				background-repeat: no-repeat;
+				bottom: -20px;
+    			left: -20px;
+			}
+
+			&:after {
+				position: absolute;
+				content: "";
+				background-image: url("../img/right-block.png");
+				background-repeat: no-repeat;
+				width: 200px;
+				height: 601px;
+				top: -22px;
+				right: -10px;
+			}
+
+		img {
+
+		}
+	}
+}

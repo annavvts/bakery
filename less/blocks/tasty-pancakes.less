@@ -1,0 +1,96 @@
+.tasty-pancakes {
+	background-image: url("../img/tasty-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 140px;
+	padding-bottom: 105px;
+
+	.main-block {
+		width: 967px;
+		background-image: url("../img/pancake.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	h2 {
+		color: #56534c;
+		font-size: 48px;
+		font-weight: 700;
+	}
+
+	.annotation {
+		font-size: 14px;
+		line-height: 30px;
+		font-weight: 700;
+		color: #a47d5e;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		color: #56534c;
+		max-width: 410px;
+		display: block;
+	}
+
+	.main-block-wrapper {
+		background-color: white;
+		background-image: url("../img/windmill.png");
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		width: 547px;
+		margin-left: 420px;
+		padding-top: 83px;
+		padding-bottom: 40px;
+		padding-left: 65px;
+		display: flex;
+    	flex-direction: column;
+    	max-height: 512px;
+    	position: relative;
+
+    	&:after {
+    		position: absolute;
+    		content: "";
+			background-image: url("../img/ready.png");
+			background-repeat: no-repeat;
+			width: 296px;
+			height: 296px;
+			top: -42px;
+    		right: -150px;
+    	}
+
+	}
+
+	.gallery {
+		margin-top: 105px;
+		align-self: center;
+
+		.slide {
+			position: relative;
+			margin-right: 30px;
+
+			&:first-child:before {
+				position: absolute;
+				content: "";
+				background-image: url("../img/arrow-left.png");
+				width: 32px;
+				height: 32px;
+				left: -52px;
+    			bottom: 35px;
+			}
+
+			&:last-child:after {
+				position: absolute;
+				content: "";
+				background-image: url("../img/arrow-right.png");
+				width: 32px;
+				height: 32px;
+				right: -52px;
+				bottom: 35px;
+			}
+		}
+	}
+}

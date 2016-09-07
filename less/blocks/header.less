@@ -1,0 +1,89 @@
+header {
+	font-size: 0;
+	background-color: rgba(0,0,0,0.3);
+	padding: 5px 0;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+
+	.logo {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 100px;
+	}
+
+	ul {
+		font-size: 0;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 82px;
+	}
+
+	a {
+		color: white;
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: 4px;
+	}
+
+	.social {
+		font-size: 0;
+		display: inline-block;
+	}
+
+	.social-btn {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 0;
+	}
+
+	.twitter {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			content: "";
+			background-image: url("../img/twitter.png");
+			width: 16px;
+			height: 13px;
+			top: 2px;
+			left: 0;
+		}
+	}
+
+	.fb {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			content: "";
+			background-image: url("../img/fb.png");
+			width: 8px;
+			height: 15px;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	.inst {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			content: "";
+			background-image: url("../img/inst.png");
+			width: 14px;
+			height: 16px;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	
+}

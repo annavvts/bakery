@@ -372,7 +372,7 @@ header .inst:before {
   text-align: center;
   background-image: url("../img/cart-bg.png");
   background-repeat: no-repeat;
-  width: 100%;
+  width: 440px;
   padding: 55px;
   position: relative;
 }
@@ -381,6 +381,7 @@ header .inst:before {
   font-size: 14px;
   line-height: 30px;
   max-width: 340px;
+  margin-bottom: 50px;
 }
 .breakfast .escape a {
   color: #a47d5e;
